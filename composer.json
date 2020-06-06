@@ -1,0 +1,30 @@
+{
+    "name": "radevlabs/bake",
+    "description": "Admin builder with laravel livewire",
+    "type": "project",
+    "keywords": ["laravel", "livewire", "admin", "panel"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafy Aulia Akbar",
+            "email": "radevlabs@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Radevlabs\\Bake\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "livewire/livewire": ">=1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Radevlabs\\Bake\\BakeServiceProvider"
+            ]
+        }
+    }
+}
