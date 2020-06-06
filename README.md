@@ -1,1 +1,1 @@
-"# bake" 
+# Admin panel with laravel livewire
